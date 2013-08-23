@@ -76,7 +76,7 @@ begin
       
       if rising_edge(clk_i) then
       
-         if rst_i='1' then
+         if rst_i='0' then
             s_srData <= (others => '0');
             
          -- Parallel load.
